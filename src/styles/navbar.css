@@ -1,0 +1,47 @@
+/* Style for the navbar */
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Style for the pizza logo */
+.navbar img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+/* Style for navigation links */
+.navbar a {
+  text-decoration: none;
+  color: rgb(91, 55, 189);
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+/* Media query for screens less than 600px */
+@media screen and (max-width: 600px) {
+  /* Hide the regular navigation links */
+  .navbar a {
+    display: none;
+  }
+
+  /* Display a dropdown menu when screen is minimized */
+  .navbar .dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: black;
+  }
+
+  /* Style the dropdown links */
+  .navbar .dropdown a {
+    display: block;
+    padding: 10px;
+    color: rgb(91, 55, 189);
+    font-size: 15px;
+  }
+}

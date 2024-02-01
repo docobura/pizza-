@@ -1,0 +1,45 @@
+/* Style the title container */
+.title {
+  background-color: #333030;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Style the header container */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the h1 element */
+.header h1 {
+  font-size: 24px;
+}
+
+/* Style the p element */
+.header p {
+  font-size: 16px;
+  align-self: self-start;
+}
+
+/* Style the button */
+.header button {
+  background-color: #111111;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Add hover effect to the button */
+.header button:hover {
+  background-color: #e4e1e0;
+}
+
+/* Style the image to fit the screen */
+.header img {
+  max-width: 100%;
+  height: 50%;
+}
